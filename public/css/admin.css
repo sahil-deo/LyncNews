@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+    background-image: url('https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=1380&t=st=1710363610~exp=1710364210~hmac=79ba41123bcc582f13091ae93c3f7eddebc3309a5f6edac727516136519547bb');
+    background-size: cover;
+    padding: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+.navbar{
+    background-color: rgb(184, 219, 250, 0.578);
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.navbar a{
+    margin: 0px 10px;
+    flex: 1;
+    text-decoration: none;
+    color: black
+}
+.options{
+    flex: 1;
+    display: flex;
+}
+#title{
+    flex: 4;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 2em;
+}
+.title{
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 2em;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+    background-color: rgb(129, 166, 198, 0.578);    
+    backdrop-filter: blur(5px);
+}
+.body{
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(184, 219, 250, 0.578);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+.body form{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+}
+input, textarea{
+    padding: 5px 10px;
+}
+.body form button{
+    width: 100px;
+    margin: 10px;
+    padding: 5px 20px;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+
+}
+
+table{
+    backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+    background-color: rgba(180, 214, 244, 0.578);
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px; 
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: rgba(157, 185, 209, 0.578);
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 8px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.278);
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+}
+
+.newArticle{
+    margin: 0px 20vw;
+}
+@media(max-width: 1000px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .genre{
+        display: none;
+    }
+    .newArticle{
+        margin: 0px 0px;
+    }
+}
+
+@media(max-width: 500px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .genre{
+        display: none;
+    }
+    .author{
+        display: none;
+    }
+    .newArticle{
+        margin: 0px 0px;
+    }
+}
+

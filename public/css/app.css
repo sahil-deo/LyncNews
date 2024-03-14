@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
+html{
+    font-family: "Playfair Display", serif;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=1380&t=st=1710363610~exp=1710364210~hmac=79ba41123bcc582f13091ae93c3f7eddebc3309a5f6edac727516136519547bb');
+    background-size: cover;
+}
+.spacer{
+    height: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgb(184, 219, 250, 0.538);
+    margin: 0px 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+
+}
+.options{
+    margin: 10px 20px;
+    justify-self: center;
+    font-size: 1.2em;
+}
+.options a{
+    margin: 0px 20px;
+}
+.title{
+    font-family: "Fugaz One", sans-serif;
+    margin: 10px 20px;
+    font-size: 3em;
+}
+
+.navbar button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.article-head{
+    backdrop-filter: blur(5px);
+    background-color: rgb(153, 203, 248, 0.538);
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+}
+.article-title{
+    padding: 10px;
+    font-size: 2em;
+    
+}
+.author{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+.article-body{
+    backdrop-filter: blur(5px);
+    background-color: rgb(184, 219, 250, 0.538);
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+
+}
+button{
+    padding: 10px 20px;
+    background: rgb(153, 203, 248);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+    backdrop-filter: blur(5px);
+    background-color: rgb(184, 219, 250, 0.538);
+
+
+
+}
+
+.article-body a{
+    text-decoration: underline;    
+}
+
+
+@media(max-width: 1000px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    #genre{
+        display: none;
+    }
+}
+
+
+.sort{
+    font-family: "Playfair Display", serif;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.379);
+    backdrop-filter: blur(5px);
+    background-color: rgb(184, 219, 250, 0.538);
+    border-radius: 10px;
+    margin: 30px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.sort input{
+    margin: 10px 0px 10px 20px;
+    padding: 5px 15px;
+}
